@@ -28,5 +28,11 @@
   "support": {
     "issues" : "https://github.com/blueimp/JavaScript-Load-Image/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "autoload": {
+    "psr-0": {
+      "Blueimp\\JsLoadImageBundle": ""
+    }
+  },
+  "target-dir": "Blueimp/JsLoadImageBundle"
 }
